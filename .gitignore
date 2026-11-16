@@ -1,0 +1,48 @@
+# ---- 密钥与配置 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+config/secrets.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- 运行时数据 ----
+data/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.parquet
+*.h5
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Node（如后续引入前端/工具链）----
+node_modules/
