@@ -1,0 +1,14 @@
+# 仓库内统一使用 LF，检出到 Windows 时保留原样，避免跨平台换行噪声
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.wav binary
+*.mp3 binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.pdf binary
